@@ -1,4 +1,10 @@
-// moddules for node and express
+/*server/config/app.js
+Mintu Vipin Joy
+301135483
+30/10/2020 
+My Favourite Books*/
+
+// modules for node and express
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
@@ -40,6 +46,7 @@ app.use(express.static(path.join(__dirname, '../../client')));
 // route redirects
 app.use('/', index);
 app.use('/books', books);
+
 
 
 // catch 404 and forward to error handler

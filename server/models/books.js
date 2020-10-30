@@ -1,3 +1,9 @@
+/*server/models/books.js
+Mintu Vipin Joy
+301135483
+30/10/2020 
+My Favourite Books*/
+
 let mongoose = require('mongoose');
 
 // create a model class
@@ -12,4 +18,4 @@ let Book = mongoose.Schema({
   collection: "books"
 });
 
-module.exports = mongoose.model('Book', Book);
+module.exports = mongoose.model('book_store', Book);

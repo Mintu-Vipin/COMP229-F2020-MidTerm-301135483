@@ -1,3 +1,9 @@
+/*server/config/db.js
+Mintu Vipin Joy
+301135483
+30/10/2020 
+My Favourite Books*/
+
 module.exports = {
   //local MongoDB deployment ->
   //"URI": "mongodb://localhost/books229"
